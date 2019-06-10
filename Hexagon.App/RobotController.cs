@@ -20,7 +20,7 @@ namespace Hexagon.App
 
         public void ProcessCommandsFromUserInput()
         {
-            Console.WriteLine("Please enter commands. An empty line will exit the app.");
+            Console.WriteLine("Please enter commands, each on a new line. An empty line will exit the app.");
             string input;
             bool hasReceivedFirstPlaceCommand = false;
 

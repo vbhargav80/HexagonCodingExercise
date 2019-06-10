@@ -1,5 +1,5 @@
 # HexagonCodingExercise
-The app has been developed as a console application. Simple running the app will enable the user to enter commands for the robot on each line.  
+The app has been developed as a console application. Running the app via visual studio will enable the user to enter commands for the robot on each line.  
 You can alternatively read the commands from a file. This is controlled via an appsetting in the json configuration file
 
 
