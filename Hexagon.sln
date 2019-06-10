@@ -3,11 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2043
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hexagon.App", "Hexagon.App\Hexagon.App.csproj", "{8F5A4A06-AB2F-4C27-9B91-632851F78CA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hexagon.App", "Hexagon.App\Hexagon.App.csproj", "{8F5A4A06-AB2F-4C27-9B91-632851F78CA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hexagon.Domain", "Hexagon.Domain\Hexagon.Domain.csproj", "{01F86040-CEF4-401B-AF61-C00FECFE80AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hexagon.Domain", "Hexagon.Domain\Hexagon.Domain.csproj", "{01F86040-CEF4-401B-AF61-C00FECFE80AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hexagon.Domain.Tests", "Hexagon.Domain.Tests\Hexagon.Domain.Tests.csproj", "{D40DF3BC-7A65-4188-95BC-FA8438900A28}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hexagon.Domain.Tests", "Hexagon.Domain.Tests\Hexagon.Domain.Tests.csproj", "{D40DF3BC-7A65-4188-95BC-FA8438900A28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{560B5815-06A5-4380-A9F0-EAB94342D99F}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+		TestData\TestFile1.txt = TestData\TestFile1.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
